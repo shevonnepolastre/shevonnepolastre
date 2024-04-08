@@ -5,7 +5,7 @@
 I'm a Senior Program Manager working in an IT consulting company who is focused on getting more technical so eventually I can pivot to be a Cloud Solutions Architect
 
 ## 🔭 I’m currently working on
-TBD
+- <a href="https://github.com/shevonnepolastre/AZ-104-Studying">Studying for the <b>AZ-104</b></a>
 
 ## 🌱 I’m currently learning
 - Azure
