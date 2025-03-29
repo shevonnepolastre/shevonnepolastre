@@ -15,10 +15,8 @@ I'm a Senior Program Manager working in an IT consulting company who is focused 
 - Learning Azure 
 
 ## 📫 How to reach me
--<a href="https://www.youtube.com/shevonnepolastre"><img align="left" alt="ShevonnePolastre | YouTube" width="30px" src="https://shevonnepolastre.com/wp-content/uploads/2024/04/youtube_social-media-icon.png"/></a>
--<a href="https://www.instagram.com/shevonnepolastre"><img align="left" alt="ShevonnePolastre | YouTube" width="30px" src="https://shevonnepolastre.com/wp-content/uploads/2024/04/instagram_social-media-icon.png"/></a>
+
 -<a href="https://www.pinterest.com/shevonne/"><img align="left" alt="ShevonnePolastre | YouTube" width="30px" src="https://shevonnepolastre.com/wp-content/uploads/2024/04/pinterest_social-media-icon.png"/></a>
--<a href="https://www.twitter.com/shevonne_p/"><img align="left" alt="ShevonnePolastre | YouTube" width="30px" src="https://shevonnepolastre.com/wp-content/uploads/2024/04/twitter_social-media-icon.png"/></a>
 -<a href="https://www.linkedin.com/in/shevonnepolastre/"><img align="left" alt="ShevonnePolastre | YouTube" width="30px" src="https://shevonnepolastre.com/wp-content/uploads/2024/04/linkedin_social-media-icon.png"/></a>
 
 ## ⚡ Fun fact
