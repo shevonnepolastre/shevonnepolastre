@@ -9,6 +9,8 @@ I'm a Senior Program Manager working in an IT consulting company who is focused 
 
 ## 🌱 I’m currently learning
 - Azure
+- Python
+- AI
 
 ## 💬 Ask me about
 - Project Management
