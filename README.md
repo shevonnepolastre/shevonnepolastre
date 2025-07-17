@@ -13,8 +13,10 @@ I'm a Senior Program Manager working in an IT consulting company who is focused 
 - AI
 
 ## 💬 Ask me about
-- Project Management
-- Learning Azure 
+- My quest to change from a Program Manager to Engineer
+- Learning Azure
+- Learning AI
+- Learning Python
 
 ## 📫 How to reach me
 
