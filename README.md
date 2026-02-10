@@ -14,11 +14,17 @@ Transitioning from 20+ years in IT program management to hands-on cloud engineer
 
 ## Technical Skills
 
-**Infrastructure**: Azure (VNets, NSGs, Bastions, Firewalls, App Services), Bicep/ARM templates, PowerShell automation, GitHub Actions CI/CD
+## Technical Skills
 
-**Certifications**: AZ-104 (Azure Administrator), Security+, AZ-900, PMP
+**Infrastructure & Cloud**: Azure (VNets, NSGs, Bastions, Firewalls, App Services), Bicep/ARM templates, PowerShell automation, GitHub Actions CI/CD
 
-**Clearance**: TS/SCI
+**Security & Compliance**: TS/SCI clearance, vulnerability management (ACAS), IAM, RBAC, FedRAMP/DoD policy alignment
+
+**Certifications**: AZ-104 (Azure Administrator), Security+, AZ-900, PMP, ITIL Foundation, CSM
+
+**3. Background - Add one concrete metric:**
+
+6 years managing Azure infrastructure projects for federal clients at Applied Information Sciences. Led cloud certification study groups (15+ engineers certified), launched internal Azure training sessions, and mentored teams on infrastructure automation. Now applying 20 years of IT experience to hands-on engineering work.
 
 ## Background
 
