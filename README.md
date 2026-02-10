@@ -1,33 +1,34 @@
+# Shevonne Polastre
 
-# Hello, I'm Shevonne! 👋
+**Senior Program Manager → Cloud Infrastructure Engineer**
 
-## About Me
-I'm a Senior Program Manager working in an IT consulting company who is focused on getting more technical so eventually I can pivot to be a Cloud Solutions Architect
+Transitioning from 20+ years in IT program management to hands-on cloud engineering. Building Azure infrastructure solutions with IaC, automation, and modern DevOps practices.
 
-## 🔭 I’m currently working on
-- [Azure Hub and Spoke Using Bicep](https://github.com/shevonnepolastre/azure-hub-spoke-platform)
+## Current Focus
 
-## 🌱 I’m currently learning
-- Azure
-- Python
-- AI
+**[Azure Hub-Spoke Platform](https://github.com/shevonnepolastre/azure-hub-spoke-platform)** - Enterprise network architecture using Bicep templates with modular spoke deployments, standardized naming conventions, and infrastructure-as-code best practices
 
-## 💬 Ask me about
-- My quest to change from a Program Manager to Engineer
-- Learning Azure
-- Learning AI
-- Learning Python
+**[Minecraft Azure Infrastructure Lab](https://github.com/shevonnepolastre/minecraft-azure-quests)** - Hands-on AZ-104 learning environment featuring automated backups, disaster recovery scenarios, and CI/CD with GitHub Actions
 
-## 📫 How to reach me
+**[Minecraft Dashboard App](https://github.com/shevonnepolastre/minecraft-dashboard-app)** - Full-stack Node.js app on Azure App Service with Notion API integration
 
--<a href="https://www.pinterest.com/shevonne/"><img align="left" alt="ShevonnePolastre | YouTube" width="30px" src="https://shevonnepolastre.com/wp-content/uploads/2024/04/pinterest_social-media-icon.png"/></a>
--<a href="https://www.linkedin.com/in/shevonnepolastre/"><img align="left" alt="ShevonnePolastre | YouTube" width="30px" src="https://shevonnepolastre.com/wp-content/uploads/2024/04/linkedin_social-media-icon.png"/></a>
+## Technical Skills
 
-## ⚡ Fun fact
-I make the best white chicken chili in the world 
+**Infrastructure**: Azure (VNets, NSGs, Bastions, Firewalls, App Services), Bicep/ARM templates, PowerShell automation, GitHub Actions CI/CD
 
-## 📊 GitHub Stats
-[![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=shevonnepolastre&show_icons=true&theme=radical)](https://github.com/shevonnepolastre)
+**Certifications**: AZ-104 (Azure Administrator), Security+, AZ-900, PMP
 
+**Clearance**: TS/SCI
 
-##### Social media icons attribution: <a href="https://www.vecteezy.com/free-vector/social">Social Vectors by Vecteezy</a>
+## Background
+
+6 years managing Azure infrastructure projects for federal clients at Applied Information Sciences. Led cloud certification study groups, launched internal Azure training sessions, and mentored teams on infrastructure automation. Now applying 20 years of IT experience to hands-on engineering work.
+
+## Connect
+
+<a href="https://www.linkedin.com/in/shevonnepolastre/"><img align="left" alt="LinkedIn" width="30px" src="https://shevonnepolastre.com/wp-content/uploads/2024/04/linkedin_social-media-icon.png"/></a>
+
+<br clear="left"/>
+
+---
+*Social media icons: [Vecteezy](https://www.vecteezy.com/free-vector/social)*
