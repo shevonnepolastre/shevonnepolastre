@@ -5,7 +5,7 @@
 I'm a Senior Program Manager working in an IT consulting company who is focused on getting more technical so eventually I can pivot to be a Cloud Solutions Architect
 
 ## 🔭 I’m currently working on
-- [AI Financial Tracker](https://github.com/shevonnepolastre/AI-Financial-Tracker/)
+- [Azure Hub and Spoke Using Bicep](https://github.com/shevonnepolastre/azure-hub-spoke-platform)
 
 ## 🌱 I’m currently learning
 - Azure
