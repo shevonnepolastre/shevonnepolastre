@@ -14,8 +14,6 @@ Transitioning from 20+ years in IT program management to hands-on cloud engineer
 
 ## Technical Skills
 
-## Technical Skills
-
 **Infrastructure & Cloud**: Azure (VNets, NSGs, Bastions, Firewalls, App Services), Bicep/ARM templates, PowerShell automation, GitHub Actions CI/CD
 
 **Security & Compliance**: TS/SCI clearance, vulnerability management (ACAS), IAM, RBAC, FedRAMP/DoD policy alignment
