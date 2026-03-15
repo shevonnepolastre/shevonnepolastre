@@ -75,6 +75,3 @@ Madison University.
 ## Connect
 <a href="https://www.linkedin.com/in/shevonnepolastre/">LinkedIn</a>
 
-
----
-*Social media icons: [Vecteezy](https://www.vecteezy.com/free-vector/social)*
