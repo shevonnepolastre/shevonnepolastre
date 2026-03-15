@@ -1,37 +1,79 @@
 # Shevonne Polastre
-
 **Senior Program Manager → Cloud Infrastructure Engineer**
 
-Transitioning from 20+ years in IT program management to hands-on cloud engineering. Building Azure infrastructure solutions with IaC, automation, and modern DevOps practices.
+I spent 20+ years in IT — the last six managing Azure infrastructure projects for 
+federal clients. I know how these systems are supposed to work because I've been 
+coordinating the teams that build them. Now I'm building them myself — both here 
+on GitHub and at work, where I currently split my time between program management 
+and hands-on cloud engineering.
 
-## Current Focus
+---
 
-**[Azure Hub-Spoke Platform](https://github.com/shevonnepolastre/azure-hub-spoke-platform)** - Enterprise network architecture using Bicep templates with modular spoke deployments, standardized naming conventions, and infrastructure-as-code best practices
+## What I'm Building
 
-**[Minecraft Azure Infrastructure Lab](https://github.com/shevonnepolastre/minecraft-azure-quests)** - Hands-on AZ-104 learning environment featuring automated backups, disaster recovery scenarios, and CI/CD with GitHub Actions
+**[Azure Hub-Spoke Network Platform](https://github.com/shevonnepolastre/azure-hub-spoke-platform)** ✅
+Enterprise-grade hub-and-spoke network topology built entirely in Bicep. Includes 
+modular VNet design, bidirectional VNet peering, conditional NSG deployment across 
+three isolated spoke environments, and end-to-end connectivity validation. Built to 
+mirror the kind of architecture you'd find at a mid-to-large organization running 
+workloads in Azure.
 
-**[Minecraft Dashboard App](https://github.com/shevonnepolastre/minecraft-dashboard-app)** - Full-stack Node.js app on Azure App Service with Notion API integration
+**[Minecraft Azure Infrastructure Lab](https://github.com/shevonnepolastre/minecraft-azure-quests)**
+Hands-on AZ-104 study environment built around a Minecraft server on Azure. Covers 
+VM deployment, NSG configuration, DNS, Azure Storage, automated backups via 
+PowerShell and AzCopy, and CI/CD with GitHub Actions. Yes, it involves Minecraft — 
+it also involves real infrastructure skills.
+
+**[Minecraft Dashboard App](https://github.com/shevonnepolastre/minecraft-dashboard-app)**
+Full-stack Node.js web app deployed to Azure App Service with Notion API integration. 
+Built to practice cross-functional cloud and productivity tooling using real APIs and 
+modern dev practices.
+
+---
 
 ## Technical Skills
 
-**Infrastructure & Cloud**: Azure (VNets, NSGs, Bastions, Firewalls, App Services), Bicep/ARM templates, PowerShell automation, GitHub Actions CI/CD
+**Cloud Infrastructure**
+Azure, Bicep/IaC, ARM templates, PowerShell automation, Azure CLI, VNets, NSGs, 
+Azure Bastion, App Services, Azure Storage, Log Analytics
 
-**Security & Compliance**: TS/SCI clearance, vulnerability management (ACAS), IAM, RBAC, FedRAMP/DoD policy alignment
+**Identity & Endpoint Management**
+Microsoft Intune, Microsoft Entra ID, Microsoft Graph API, RBAC, IAM
 
-**Certifications**: AZ-104 (Azure Administrator), Security+, AZ-900, PMP, ITIL Foundation, CSM
+**DevOps & Automation**
+GitHub Actions CI/CD, PowerShell scripting, infrastructure automation, 
+deployment pipelines
 
-**3. Background - Add one concrete metric:**
+**Security & Compliance**
+TS/SCI clearance, Security+, vulnerability management (ACAS), FedRAMP/DoD 
+policy alignment
 
-6 years managing Azure infrastructure projects for federal clients at Applied Information Sciences. Led cloud certification study groups (15+ engineers certified), launched internal Azure training sessions, and mentored teams on infrastructure automation. Now applying 20 years of IT experience to hands-on engineering work.
+**Certifications**
+AZ-104 Azure Administrator · Security+ · AZ-900 · PMP · ITIL Foundation · CSM
+
+---
 
 ## Background
 
-6 years managing Azure infrastructure projects for federal clients at Applied Information Sciences. Led cloud certification study groups, launched internal Azure training sessions, and mentored teams on infrastructure automation. Now applying 20 years of IT experience to hands-on engineering work.
+Six years managing Azure infrastructure projects for federal clients at Applied 
+Information Sciences — DoD, US Army, Department of State. Led internal cloud 
+certification study groups that helped 15+ engineers earn Azure and Security+ 
+certifications. Launched lunch-and-learn sessions on Azure infrastructure and 
+automation.
+
+Currently transitioning into a hybrid engineering role at AIS, where 50% of my 
+work is now hands-on cloud engineering — Microsoft Intune administration, O&M 
+tickets, and cloud migration work for federal clients. The other 50% is still 
+program management, which means I understand both sides of how infrastructure 
+gets planned and delivered.
+
+I hold an active TS/SCI clearance and an MBA in Information Security from James 
+Madison University.
+
+---
 
 ## Connect
-
 <a href="https://www.linkedin.com/in/shevonnepolastre/"><img align="left" alt="LinkedIn" width="30px" src="https://shevonnepolastre.com/wp-content/uploads/2024/04/linkedin_social-media-icon.png"/></a>
-
 <br clear="left"/>
 
 ---
