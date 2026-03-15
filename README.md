@@ -1,5 +1,5 @@
 # Shevonne Polastre
-**Senior Program Manager → Cloud Infrastructure Engineer**
+**Azure Cloud Engineer | Bicep · PowerShell · GitHub Actions | AZ-104 · Security+ · TS/SCI**
 
 I spent 20+ years in IT — the last six managing Azure infrastructure projects for 
 federal clients. I know how these systems are supposed to work because I've been 
