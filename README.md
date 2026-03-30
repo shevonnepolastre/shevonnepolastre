@@ -18,13 +18,13 @@ three isolated spoke environments, and end-to-end connectivity validation. Built
 mirror the kind of architecture you'd find at a mid-to-large organization running 
 workloads in Azure.
 
-**[Azure Infrastructure Lab](https://github.com/shevonnepolastre/azure-infrastructure-labs)**
+**[Azure Infrastructure Lab](https://github.com/shevonnepolastre/azure-infrastructure-labs)** ✅
 Hands-on AZ-104 study environment built around a Minecraft server on Azure. Covers 
 VM deployment, NSG configuration, DNS, Azure Storage, automated backups via 
 PowerShell and AzCopy, and CI/CD with GitHub Actions. Yes, it involves Minecraft — 
 it also involves real infrastructure skills.
 
-**[Minecraft Dashboard App](https://github.com/shevonnepolastre/minecraft-dashboard-app)**
+**[Minecraft Dashboard App](https://github.com/shevonnepolastre/minecraft-dashboard-app)** ✅
 Full-stack Node.js web app deployed to Azure App Service with Notion API integration. 
 Built to practice cross-functional cloud and productivity tooling using real APIs and 
 modern dev practices.
