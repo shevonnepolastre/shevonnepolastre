@@ -11,14 +11,14 @@ and hands-on cloud engineering.
 
 ## What I'm Building
 
-**[Azure Hub-Spoke Network Platform](https://github.com/shevonnepolastre/azure-hub-spoke-platform)** ✅
+**[Azure Hub-Spoke Network Platform][(https://github.com/shevonnepolastre/azure-hub-spoke-platform](https://github.com/shevonnepolastre/azure-infrastructure-labs))** ✅
 Enterprise-grade hub-and-spoke network topology built entirely in Bicep. Includes 
 modular VNet design, bidirectional VNet peering, conditional NSG deployment across 
 three isolated spoke environments, and end-to-end connectivity validation. Built to 
 mirror the kind of architecture you'd find at a mid-to-large organization running 
 workloads in Azure.
 
-**[Minecraft Azure Infrastructure Lab](https://github.com/shevonnepolastre/minecraft-azure-quests)**
+**[Azure Infrastructure Lab](https://github.com/shevonnepolastre/minecraft-azure-quests)**
 Hands-on AZ-104 study environment built around a Minecraft server on Azure. Covers 
 VM deployment, NSG configuration, DNS, Azure Storage, automated backups via 
 PowerShell and AzCopy, and CI/CD with GitHub Actions. Yes, it involves Minecraft — 
