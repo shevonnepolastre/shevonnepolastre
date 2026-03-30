@@ -1,159 +1,64 @@
-# Minecraft Dashboard App
+# Shevonne Polastre
 
-A full-stack Node.js web application deployed on Azure App Service that connects a
-web form to a Notion database via the Notion API. Built to explore AZ-104 concepts
-including App Services, infrastructure as code, and deployment automation.
+**Cloud Infrastructure Engineer | Microsoft Endpoint & Azure Platform**
 
----
+Six years managing Azure infrastructure projects for federal clients. Now building
+the infrastructure myself — endpoint management, Azure platform engineering, and
+cloud automation for regulated government environments.
 
-## What It Does
+Currently 50% hands-on engineering at AIS: Microsoft Intune administration,
+GPO-to-Intune migration, Windows Autopilot, Azure landing zones, and hub-spoke
+network design. The other 50% is still program management — which means I
+understand both how infrastructure gets built and how it gets delivered.
 
-Users submit data through a web form. The Express.js backend receives the submission
-and writes it to a Notion database via the Notion API. The entire stack is deployed
-to Azure App Service (Linux) using GitHub Actions and provisioned with Bicep.
-
----
-
-## Stack
-
-| Layer | Technology |
-|-------|------------|
-| Backend | Node.js + Express.js |
-| Data | Notion API |
-| Infrastructure | Azure App Service (Linux, 64-bit) |
-| IaC | Azure Bicep |
-| CI/CD | GitHub Actions + self-hosted runner |
-| Auth | Service principal (JSON secret) |
+Active TS/SCI clearance. MBA in Information Security, James Madison University.
 
 ---
 
-## Setup
+## What I've Built
 
-### 1. Clone and install dependencies
+**[Azure Hub-Spoke Network Platform](https://github.com/shevonnepolastre/azure-hub-spoke-platform)**
+Enterprise hub-and-spoke network topology in Bicep. Modular VNet design,
+bidirectional peering, conditional NSG deployment across three isolated spoke
+environments, and connectivity validation. Aligned to Azure Government and
+regulated enterprise patterns.
 
-```bash
-git clone https://github.com/shevonnepolastre/minecraft-dashboard-app.git
-cd minecraft-dashboard-app
-npm install
-```
+**[Azure Infrastructure Labs](https://github.com/shevonnepolastre/minecraft-azure-quests)**
+Hands-on AZ-104 lab built around a real deployment scenario. Covers VM
+provisioning, NSG configuration, DNS, Azure Storage, automated backups via
+PowerShell and AzCopy, Log Analytics, Azure Automation runbooks, and CI/CD
+with GitHub Actions and Bicep.
 
-### 2. Configure environment variables
+**[Intune Assistant Chatbot](https://github.com/shevonnepolastre/intune-assistant-chatbot)**
+RAG-based chatbot built with Azure AI Foundry and Azure Cognitive Search. Indexes
+internal Intune documentation and retrieves context at runtime to ground responses.
+Built in Python with Application Insights tracing.
 
-Copy `.env.example` to `.env` and fill in your values:
-
-```bash
-cp .env.example .env
-```
-
-Required variables:
-
-```
-NOTION_KEY=your-notion-api-key
-NOTION_DATABASE_ID=your-notion-database-id
-```
-
-For Azure authentication, use a service principal JSON secret rather than
-four separate secrets:
-
-```
-AZURE_CREDENTIALS={"clientId":"...","clientSecret":"...","tenantId":"...","subscriptionId":"..."}
-```
-
-**Do not commit `.env` to version control.** It is already in `.gitignore`.
-Add all variables to Azure App Service Environment Variables before deploying.
-
-In `server.js`, reference them as:
-
-```javascript
-const notion = new Client({ auth: process.env.NOTION_KEY });
-const databaseId = process.env.NOTION_DATABASE_ID;
-```
-
-### 3. Create the Notion integration
-
-Go to [Notion Developers](https://developers.notion.com/docs/getting-started) and
-create an integration. Use **Internal** for personal use or **Public** if others
-will access the form. Copy the API key into your `.env`.
-
-### 4. Provision Azure App Service
-
-Bicep template is in `infrastructure/appservice.bicep`. Before deploying, confirm:
-
-- App Service tier is **Basic or higher** (Free tier does not support 64-bit)
-- OS is set to **Linux**
-- Node.js runtime is specified
-
-Deploy via CLI:
-
-```bash
-az deployment group create \
-  --resource-group <your-rg> \
-  --template-file infrastructure/appservice.bicep
-```
-
-### 5. Configure the GitHub Actions pipeline
-
-The workflow file is at `.github/workflows/appservice.yml`.
-
-Add required secrets to the repository:
-
-| Secret | Value |
-|--------|-------|
-| `AZURE_CREDENTIALS` | Service principal JSON |
-| `NOTION_KEY` | Notion API key |
-| `NOTION_DATABASE_ID` | Notion database ID |
-
-### 6. Add a self-hosted runner
-
-Follow the [GitHub guide for self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners).
-
-### 7. Test locally before deploying
-
-```bash
-node server.js
-```
-
-Open `localhost:[port]` in your browser and verify the form submits to Notion
-before pushing to Azure.
-
-### 8. Deploy
-
-Push to `main` to trigger the GitHub Actions workflow. The pipeline builds and
-deploys the app to Azure App Service automatically.
-
-### 9. Troubleshoot
-
-If the deployed app has issues, use two tools in the Azure portal:
-
-- **Log Stream** — live output from the running app
-- **Debug Console** — shell access to the App Service container
+**[Minecraft Dashboard App](https://github.com/shevonnepolastre/minecraft-dashboard-app)**
+Full-stack Node.js app deployed to Azure App Service with Notion API integration.
+GitHub Actions CI/CD pipeline, Bicep provisioning, service principal auth.
 
 ---
 
-## Lessons Learned
+## Technical Skills
 
-- Linux App Service is significantly easier to configure than Windows for Node.js
-- Free tier does not support 64-bit — use Basic or higher
-- Deployment Slots require Standard tier or above — Basic does not include them
-- Always add `.env` variables to Azure Environment Variables before deploying —
-  the app will fail silently if they're missing
-- Starting from an existing sample (Notion's Express example) and adapting it is
-  a legitimate engineering approach
-
----
-
-## Reference Resources
-
-- [Notion API Getting Started](https://developers.notion.com/docs/getting-started)
-- [Notion SDK Express web form example](https://github.com/makenotion/notion-sdk-js/tree/main/examples/web-form-with-express)
-- [Deploy Node.js to Azure App Service via GitHub Actions](https://docs.github.com/en/actions/use-cases-and-examples/deploying/deploying-nodejs-to-azure-app-service)
-- [Provision App Service with Bicep (Linux)](https://learn.microsoft.com/en-us/azure/app-service/provision-resource-bicep?pivots=app-service-bicep-linux)
-- [Configure Azure App Service for 64-bit Node.js](https://devblogs.microsoft.com/premier-developer/configure-azure-app-service-for-64-bit-platform-and-node-js/)
+| Area | Tools |
+|------|-------|
+| Cloud Infrastructure | Azure, Bicep, ARM templates, Azure CLI, VNets, NSGs, App Services, Azure Storage, Log Analytics |
+| Endpoint Management | Microsoft Intune, Windows Autopilot, ADMX templates, Settings Catalog, GPO migration |
+| Identity | Microsoft Entra ID, Microsoft Graph API, RBAC, Conditional Access |
+| Automation | PowerShell, GitHub Actions, CI/CD pipelines, Proactive Remediations |
+| AI & Dev | Python, Azure AI Foundry, Azure Cognitive Search, RAG, Node.js |
+| Security & Compliance | TS/SCI clearance, Security+, FedRAMP/DoD alignment, CIS benchmarks |
 
 ---
 
-## Related Projects
+## Certifications
 
-- [azure-infrastructure-labs](https://github.com/shevonnepolastre/minecraft-azure-quests) — AZ-104 lab environment covering identity, storage, compute, networking, and monitoring
-- [minecraft-azure-server](https://github.com/shevonnepolastre/minecraft-azure-server) — automated Minecraft server deployment on Azure using GitHub Actions and Bicep
-- [intune-assistant-chatbot](https://github.com/shevonnepolastre/intune-assistant-chatbot) — RAG-based chatbot using Azure AI Foundry and Azure Cognitive Search
+AZ-104 Azure Administrator · Security+ · AZ-900 · PMP · ITIL Foundation · CSM · AB-900 Copilot
+
+---
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/shevonnepolastre/) · [Blog](https://shevonnepolastre.com)
