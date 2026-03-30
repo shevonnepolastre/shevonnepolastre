@@ -61,4 +61,4 @@ AZ-104 Azure Administrator · Security+ · AZ-900 · PMP · ITIL Foundation · C
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/shevonnepolastre/) · [Blog](https://shevonnepolastre.com)
+[LinkedIn](https://www.linkedin.com/in/shevonnepolastre/) 
