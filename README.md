@@ -29,6 +29,13 @@ provisioning, NSG configuration, DNS, Azure Storage, automated backups via
 PowerShell and AzCopy, Log Analytics, Azure Automation runbooks, and CI/CD
 with GitHub Actions and Bicep.
 
+**[Minecraft on Azure with Terraform](https://github.com/shevonnepolastre/minecraft-azure-terraform)**
+Hands-on Terraform Associate study project that provisions an Ubuntu Minecraft
+server on Azure with reusable variables, networking, SSH key authentication,
+cloud-init, Docker, Fabric, and persistent data. Documents real troubleshooting
+across provider registration, VM-family quotas, partial applies, state,
+resource replacement, and safe teardown.
+
 **[Intune Assistant Chatbot](https://github.com/shevonnepolastre/intune-assistant-chatbot)**
 RAG-based chatbot built with Azure AI Foundry and Azure Cognitive Search. Indexes
 internal Intune documentation and retrieves context at runtime to ground responses.
@@ -44,7 +51,7 @@ GitHub Actions CI/CD pipeline, Bicep provisioning, service principal auth.
 
 | Area | Tools |
 |------|-------|
-| Cloud Infrastructure | Azure, Bicep, ARM templates, Azure CLI, VNets, NSGs, App Services, Azure Storage, Log Analytics |
+| Cloud Infrastructure | Azure, Terraform, Bicep, ARM templates, Azure CLI, VNets, NSGs, App Services, Azure Storage, Log Analytics |
 | Endpoint Management | Microsoft Intune, Windows Autopilot, ADMX templates, Settings Catalog, GPO migration |
 | Identity | Microsoft Entra ID, Microsoft Graph API, RBAC, Conditional Access |
 | Automation | PowerShell, GitHub Actions, CI/CD pipelines, Proactive Remediations |
